@@ -1,0 +1,11 @@
+# Python 缓存
+__pycache__/
+*.pyc
+.idea/
+
+# 巨大的模型权重文件和数据集（切勿上传）
+models/seq2seq_legal/model.safetensors
+models/seq2seq_legal/pytorch_model.bin
+models/seq2seq_legal/checkpoint-*/
+data/raw/temp_docx/
+hf_cache/
